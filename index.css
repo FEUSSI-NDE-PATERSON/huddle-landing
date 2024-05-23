@@ -1,0 +1,33 @@
+.color{
+  color:#ff52bf;
+  color:#ebfbff;
+  color:#00252e;
+  color:#808d99;
+
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+#helloe{
+    overflow-x: hidden;
+}
+
+#header{
+    background-image: url('/images/bg-hero-desktop.svg');
+    background-color: #ebfbff;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#footer a{
+   transition: color 1.5s cubic-bezier(0.075, 0.82, 0.165, 1); 
+}
+#footer a:hover{
+    color:#ff52bf;
+
+
+}
+.social div:hover{
+    border: 2px solid #ff52bf;
+
+}
